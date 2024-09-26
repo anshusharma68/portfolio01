@@ -1,0 +1,187 @@
+ <!DOCTYPE html>
+<head>
+    <title>Portfolio</title>
+    <style>
+    header .logo
+    {
+    color: rgb(81, 15, 162);
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 10mm;
+    text-transform:uppercase;
+    letter-spacing: 2px;
+    }
+
+    nav {
+            margin: 0;
+            padding: 10px;
+            background-color: #9447cf;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            padding: 10px;
+        }
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+.portfolio {
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+}
+
+.photo-card {
+    background-color: #343333;
+    width: 250px;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    margin-right: 100px;
+}
+
+.photo-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.photo-card h2 {
+    margin: 15px 0 10px;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.photo-card p {
+    color: #ffffff;
+    font-size: 16px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #171515;
+}
+
+.portfolio-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.text-content {
+    max-width: 500px;
+}
+
+.text-content h1 {
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.text-content h1 span {
+    color: #8257E5;
+}
+
+.text-content p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    color: #aaa;
+}
+
+.text-content a {
+    color: #080216;
+    text-decoration: none;
+}
+
+.text-content a:hover {
+    text-decoration: underline;
+}
+
+.connect-btn {
+    display: inline-block;
+    background-color: #e2bdee;
+    padding: 12px 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.connect-btn span {
+    margin-left: 8px;
+}
+
+.projects,.contact {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .project {
+            width: 30%;
+            margin-bottom: 20px;
+            padding: 15px;
+            border: 1px solid #07000b;
+            border-radius: 8px;
+            background-color: #debaeb;
+        }
+
+
+</style>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">AS</a>
+        <nav>
+
+          <a href="blogs.html">Blog</a>
+          <a href="About.html">About Me</a>
+          <a href="contact.html">Contact</a>
+
+        </nav>
+    </header>
+
+    <div class="portfolio-container">
+
+        <div class="text-content">
+            <h1>HEY Y'ALL <span>*</span> I'M ANSHU!</h1>
+            <p>I'm a skilled web developer who's passionate about UI/UX</p>
+            <a class="connect-btn" href="https://www.linkedin.com/in/anshu-sharma-847164278/">Let's Connect <span>🔗</span></a>
+        </div>
+
+    <div class="portfolio"></div>
+
+        <div class="photo-card">
+            <img src="Anshu img.jpeg" alt="">
+            <h2>Anshu Kumar Sharma</h2>
+            <p>Web Developer | Data Scientist </p>
+        </div>
+    </div>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects">
+            <div class="project">
+                <h3>Project 1</h3>
+                <p>This is a description of my first project. It was built using HTML, CSS, and JavaScript.</p>
+            </div>
+            <div class="project">
+                <h3>Project 2</h3>
+                <p>This is a description of my second project. It was built using React and Node.js.</p>
+            </div>
+            <div class="project">
+                <h3>Project 3</h3>
+                <p>This is a description of my third project. It was built using Python and Django.</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
